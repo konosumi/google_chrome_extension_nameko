@@ -16,5 +16,3 @@ $(document).ready(function() {
     topHpLogo.attr("width", "80");
     topHpLogo.attr("height", "80");
 });
-
-

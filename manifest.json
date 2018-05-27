@@ -1,0 +1,13 @@
+{
+    "manifest_version": 2,
+    "name": "Google Nameko",
+    "description": "Learning Google Chrome extension with Nameko.",
+    "version": "0.1",
+    "content_scripts": [
+        {
+            "matches": ["https://www.google.com/*"],
+            "js": ["jquery-3.3.1.min.js", "main.js"],
+            "run_at": "document_end"
+        }
+    ]
+}

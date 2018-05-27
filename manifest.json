@@ -3,9 +3,13 @@
     "name": "Google Nameko",
     "description": "Learning Google Chrome extension with Nameko.",
     "version": "0.1",
+    "icons": {
+        "48": "icons/nameko_48.png",
+        "96": "icons/nameko_96.png"
+    },
     "content_scripts": [
         {
-            "matches": ["https://www.google.com/*"],
+            "matches": ["https://www.google.com/", "https://www.google.com/search?*"],
             "js": ["jquery-3.3.1.min.js", "main.js"],
             "run_at": "document_end"
         }

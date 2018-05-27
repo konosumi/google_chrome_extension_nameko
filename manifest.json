@@ -4,8 +4,8 @@
     "description": "Learning Google Chrome extension with Nameko.",
     "version": "0.1",
     "icons": {
-        "48": "icons/nameko_48.png",
-        "96": "icons/nameko_96.png"
+        "48": "icons/nameko_48.jpg",
+        "96": "icons/nameko_96.jpg"
     },
     "content_scripts": [
         {

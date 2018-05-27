@@ -1,6 +1,6 @@
 
 $(document).ready(function() {
-    var namekoImage = "https://raw.githubusercontent.com/konosumi/blog_0194_learning_google_chrome_extension_with_nameko/master/icons/nameko.jpg";
+    var namekoImage = "https://raw.githubusercontent.com/konosumi/blog_0194_learning_browser_extension_with_nameko/master/icons/nameko.jpg";
 
     // 検索ページのロゴ
     var searchLogo = $("a#logo").children('img');

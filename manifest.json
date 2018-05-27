@@ -1,7 +1,7 @@
 {
     "manifest_version": 2,
-    "name": "Google Nameko",
-    "description": "Learning Google Chrome extension with Nameko.",
+    "name": "Google Search Nameko",
+    "description": "Learning Browser extension with Nameko.",
     "version": "0.1",
     "icons": {
         "48": "icons/nameko_48.jpg",

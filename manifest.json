@@ -12,8 +12,8 @@
             "matches": [
                 "https://www.google.com/",
                 "https://www.google.co.jp/",
-                "https://www.google.com/search?*",
-                "https://www.google.co.jp/search?*"
+                "https://www.google.com/search*",
+                "https://www.google.co.jp/search*"
             ],
             "js": ["jquery-3.3.1.min.js", "main.js"],
             "run_at": "document_end"
